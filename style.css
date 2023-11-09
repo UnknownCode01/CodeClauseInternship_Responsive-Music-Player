@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.music-player {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.player-controls button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.song-info {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
